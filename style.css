@@ -1,43 +1,71 @@
-div {
-	width:960px;
-	margin: 0 auto;
-	border: 3px solid white;
+body {
+	background-color:#8671D1;
 }
 
 #shapka {
-	background-color:grey;
-	height:200px;
+	background-color:#4A3A98;
+	position: absolute;
+	width:1400px;
+	height:45px;
+	right:0px;
+	top:0px;
 }
 
-#kontent {
-	width:600px;
-	float: left;
-	height:600px;
-	background-color:#eee;
+#auth {
+	background-color:#4A3A98;
+	position: absolute;
+	right:100px;
+	top:100px;
+	width:320px;
+	height:188px;
+	border-radius:30px;
 }
 
-#bokovaya_kolonka {
-	width:348px;
-	height:600px;
-	float: right;
-	background-color:#ddd;
+#reg {
+	background-color:#4A3A98;
+	position: absolute;
+	right:100px;
+	top:300px;
+	width:320px;
+	height:360px;
+	border-radius:30px;
 }
 
-#podval {	
-	clear: both;
-	height: 40px;
-	background-color:#aaa;
+#podval {
+	background-color:#4A3A98;
+	position: absolute;
+	right:0px;
+	top:700px;
+	width:1400px;
+	height:45px;
 }
 
-#savebaza {
-	border: 0px solid grey;
-	padding-right:20px;
-	width:340px;
-	height:300px;
-	float:right;
-	background-color:grey;
+#kontects {
+	background-color:#4A3A98;
+	position: absolute;
+	right:500px;
+	top:100px;
+	width:700px;
+	height:560px;
+	border-radius:30px;
 }
 
-#first_name {
-	align:right;
+#spaceimage {
+	position: absolute;
+	right:650px;
+	top:4px
+}
+
+#novayasocialset {
+	font-size:22px;
+	font-family:arial black;
+	position: absolute;
+	top: 25px;
+	left: 187px;
+}
+
+#spaceimagee {
+	position: absolute;
+	top: 140px;
+	left: 50px;
 }
