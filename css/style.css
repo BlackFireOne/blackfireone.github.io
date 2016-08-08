@@ -65,20 +65,20 @@ text-decoration: none;
 
 #main_texter {
     background: #505050;
-    height: 540px;
+    height: 600px;
     margin-top: 40px;
 }
 
 #glavnaya {
     font-size: 25px;
-    margin-left: 350px;
+    margin-left: 410px;
     color: #ef4a4a;
     font-weight: bold;
 }
 
 #cont_text {
     width: 700px;
-    height: 430px;
+    height: 500px;
     background: #aaaaaa;
     margin-left: 60px;
     margin-top: 30px;
@@ -87,7 +87,7 @@ text-decoration: none;
 #blad {
     font-size: 20px;
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 table tr td {
@@ -112,4 +112,8 @@ td, th {
 
 #Nastyaerror {
     margin-top: 22px;
+}
+
+@media screen and {max-width: 700px} {
+    p {color:red;}
 }
