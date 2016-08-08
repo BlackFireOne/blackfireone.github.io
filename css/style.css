@@ -5,9 +5,13 @@
 	list-style-type:none;
 }
 
+body {
+    background: #1d1d1d;
+}
+
 #first {
     color:#fcfcfc;
-    background: #222121;
+    background: #101010;
 	height:70px;
     margin-bottom: 50px;
 }
@@ -59,7 +63,7 @@ text-decoration: none;
 }
 
 #main_text {
-    background: white;
+    background: #1d1d1d;
     height: 700px;
 }
 
