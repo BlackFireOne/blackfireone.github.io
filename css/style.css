@@ -32,6 +32,7 @@ padding: 0;
 display: inline-block;
 width: 200px;
 margin-top: 90px;
+margin-left: 45px;
 }
 ul.secondary-menu li {
 background: rgba(75, 75, 75, 1);
@@ -52,6 +53,7 @@ text-decoration: none;
 #logo_2 {
     margin: 3px;
     padding: 0;
+    z-index: 10000;
 }
 
 #player, #notplayer, #glav {
@@ -62,30 +64,21 @@ text-decoration: none;
     padding-left: 0;
 }
 
-#main_text {
-    background: #1d1d1d;
-    height: 700px;
-}
-
-#main_texter {
-    background: #505050;
-    height: 600px;
-    margin-top: 40px;
-}
 
 #glavnaya {
     font-size: 25px;
-    margin-left: 410px;
+    text-align: center;
     color: #ef4a4a;
     font-weight: bold;
 }
 
 #cont_text {
     width: 700px;
-    height: 500px;
+    height: 600px;
     background: #aaaaaa;
     margin-left: 60px;
     margin-top: 30px;
+    border: 40px solid #505050;
 }
 
 #blad {
@@ -118,6 +111,3 @@ td, th {
     margin-top: 22px;
 }
 
-@media screen and {max-width: 700px} {
-    p {color:red;}
-}
