@@ -5,46 +5,25 @@
 }
 
 .container {
-    display: block;
-    margin:auto;
+    margin: auto;
     text-align: center;
 }
 
-header{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #b1a3d1;
+header {
+    margin: auto;
     text-align: center;
-        margin:auto;
+    background: #4d4d4d;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 
 h1 {
     margin-right: 700px;
+    color: #dedede;
 }
 
-h6{
-    color:rgba(0, 0, 0, 0.31);
-    margin-right: 500px;
-    margin-top: -14px;
+h6 {
+    margin-right: 520px;
+    color: rgba(222, 222, 222, 0.28);
 }
-
-.main{
-    background: #e2d9d9;
-    display: inline-block;
-    height: 500px;
-    width: 45%;
-    margin:auto;
-}
-
-.main_2{
-    background: #a89f9f;
-    height: 500px;
-    width: 45%;
-    margin:auto;
-    display: inline-block;
-}
-
-/*@media screen and (max-width: 600px) {
-     p { background: #fc0; }
-   }*/
