@@ -1,123 +1,50 @@
 * {
-    font-family: 'Josefin Sans', sans-serif;
-	font-size:14px;
-	text-decoration:none;
-	list-style-type:none;
-}
-
-body {
-    background: #1d1d1d;
-}
-
-#first {
-    color:#fcfcfc;
-    background: #101010;
-	height:70px;
-    margin-bottom: 50px;
-}
-
-#text_shapka {
-top:25px ;
-position: absolute;
-}
-
-#logo {
-    margin-top: 10px;
-    z-index: 10;
-}
-
-ul.secondary-menu {
-margin: 0;
-padding: 0;
-display: inline-block;
-width: 200px;
-margin-top: 90px;
-}
-ul.secondary-menu li {
-background: rgba(75, 75, 75, 1);
-list-style: none;
-position: relative;
-border-bottom: 1px solid black;
-}
-ul.secondary-menu li a {
-padding: 0px;
-display: inline-block;
-font-family: sans-serif;
-font-size: 13px;
-font-weight: bold;
-color: #ef2d2d;
-text-decoration: none;
-}
-
-#logo_2 {
-    margin: 3px;
     padding: 0;
+    margin: 0;
+    font-family: 'verdana', sans-serif;
 }
 
-#player, #notplayer, #glav {
-    margin-left: 6px;
-}
-
-.col-md-4 {
-    padding-left: 0;
-}
-
-#main_text {
-    background: #1d1d1d;
-    height: 700px;
-}
-
-#main_texter {
-    background: #505050;
-    height: 600px;
-    margin-top: 40px;
-}
-
-#glavnaya {
-    font-size: 25px;
-    margin-left: 410px;
-    color: #ef4a4a;
-    font-weight: bold;
-}
-
-#cont_text {
-    width: 700px;
-    height: 500px;
-    background: #aaaaaa;
-    margin-left: 60px;
-    margin-top: 30px;
-}
-
-#blad {
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-table tr td {
-    border: 3px solid #5a5a5a;
-    background: #ada6d9;
-   font-weight: bold;
+.container {
+    display: block;
+    margin:auto;
     text-align: center;
 }
 
-table {
-    margin: 20px auto;
-}
-#text_sozdatel {
-top:25px ;
-position: absolute;
-font-size: 12px;
-}
-
-td, th {
-    padding: 10px;
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #b1a3d1;
+    text-align: center;
+        margin:auto;
+    
 }
 
-#Nastyaerror {
-    margin-top: 22px;
+h1 {
+    margin-right: 700px;
 }
 
-@media screen and {max-width: 700px} {
-    p {color:red;}
+h6{
+    color:rgba(0, 0, 0, 0.31);
+    margin-right: 500px;
+    margin-top: -14px;
 }
+
+.main{
+    background: #e2d9d9;
+    display: inline-block;
+    height: 500px;
+    width: 45%;
+    margin:auto;
+}
+
+.main_2{
+    background: #a89f9f;
+    height: 500px;
+    width: 45%;
+    margin:auto;
+    display: inline-block;
+}
+
+/*@media screen and (max-width: 600px) {
+     p { background: #fc0; }
+   }*/
